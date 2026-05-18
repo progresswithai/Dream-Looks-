@@ -31,9 +31,9 @@ function Get-RelativePath {
     return $relPath
 }
 
-Write-Host "=========================================================" -ForegroundColor Gold
-Write-Host "         Apsara Beauty Care Asset Localizer" -ForegroundColor Gold
-Write-Host "=========================================================" -ForegroundColor Gold
+Write-Host "=========================================================" -ForegroundColor Yellow
+Write-Host "         Apsara Beauty Care Asset Localizer" -ForegroundColor Yellow
+Write-Host "=========================================================" -ForegroundColor Yellow
 Write-Host "Target directory: $baseDir"
 Write-Host "Target base URL: $baseUrl"
 
@@ -222,10 +222,10 @@ foreach ($file in $targetFiles) {
     }
 }
 
-Write-Host "`n=========================================================" -ForegroundColor Gold
-Write-Host "Localization finished!" -ForegroundColor Gold
+Write-Host "`n=========================================================" -ForegroundColor Yellow
+Write-Host "Localization finished!" -ForegroundColor Yellow
 Write-Host "Downloaded: $downloadCount assets"
 Write-Host "Updated: $updateCount files"
-Write-Host "=========================================================" -ForegroundColor Gold
+Write-Host "=========================================================" -ForegroundColor Yellow
 Write-Host "You are all set! All assets are local and loading offline."
-Write-Host "=========================================================" -ForegroundColor Gold
+Write-Host "=========================================================" -ForegroundColor Yellow
