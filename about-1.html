@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords"
+        content="Apsara Beauty Care Rajajinagar, beauty care Rajajinagar, beauty salon Rajajinagar Bangalore, spa in Rajajinagar, skincare clinic Rajajinagar, beauty parlour Rajajinagar, best beauty salon Rajajinagar, facial treatment Rajajinagar, bridal makeup Rajajinagar, professional spa services Bangalore, organic skincare, beauty treatments West Bangalore">
+    <meta name="author" content="Apsara Beauty Care">
+    <meta name="robots" content="index, follow">
+    <meta name="description"
+        content="APSARA Beauty & Wellness Studio in Rajajinagar, Bangalore is your trusted destination for premium beauty, hair, and wellness services. Learn more about our mission, vision, and team.">
+
+    <link rel="icon" href="https://www.apsarabeautycare.com/images/home/main logo_page-0001.jpg" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.apsarabeautycare.com/images/favicon.png">
+
+    <title>About Us | Apsara Beauty Care – Salon in Rajajinagar Bangalore</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Stylesheets (Absolute paths for remote loading - will be localized) -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.apsarabeautycare.com/plugins/revolution/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.apsarabeautycare.com/plugins/revolution/revolution/css/navigation.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:400,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/service.css">
+
+    <style>
+        /* Custom About Styling */
+        .about-wrapper {
+            padding: 80px 0;
+            background: #fff;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 80px;
+        }
+
+        .about-image {
+            flex: 1;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+            border: 5px solid #fff;
+            outline: 1px solid #f2e7d5;
+        }
+
+        .about-image img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+            height: 450px;
+        }
+
+        .about-content {
+            flex: 1.2;
+        }
+
+        .about-content h2 {
+            font-family: 'Yeseva One', serif;
+            font-size: 40px;
+            color: #1A1E1F;
+            margin-bottom: 20px;
+        }
+
+        .about-content p {
+            font-size: 16px;
+            line-height: 28px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .about-highlights {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 25px;
+        }
+
+        .about-highlights li {
+            position: relative;
+            padding-left: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1A1E1F;
+            margin-bottom: 15px;
+        }
+
+        .about-highlights li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: -2px;
+            color: #c5a880;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Mission Vision */
+        .mv-container {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+
+        .mv-box {
+            flex: 1;
+            background: #fdfaf6;
+            padding: 40px 35px;
+            border-radius: 15px;
+            border: 1px solid #f2e7d5;
+            transition: all 0.3s ease;
+        }
+
+        .mv-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(197, 168, 128, 0.15);
+        }
+
+        .mv-box h3 {
+            font-family: 'Yeseva One', serif;
+            color: #c5a880;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .mv-box p {
+            font-size: 15px;
+            line-height: 26px;
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        /* Why Choose Us Grid */
+        .why-title {
+            font-family: 'Yeseva One', serif;
+            font-size: 36px;
+            color: #1A1E1F;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .why-item {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+            border: 1px solid #eee;
+            transition: 0.3s;
+        }
+
+        .why-item:hover {
+            border-color: #c5a880;
+            box-shadow: 0 10px 25px rgba(197, 168, 128, 0.08);
+        }
+
+        .why-item h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: #1A1E1F;
+            margin-bottom: 12px;
+        }
+
+        .why-item p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 991px) {
+            .about-container {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .about-image img {
+                height: 300px;
+            }
+
+            .mv-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .why-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 575px) {
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body id="bg">
+    <div class="page-wraper">
+
+        <!-- HEADER -->
+        <header class="site-header header-style-1 mobile-sider-drawer-menu" style="background-color: #1A1E1F">
+            <div class="sticky-wrapper" style="height: 100px;">
+                <div class="sticky-header main-bar-wraper navbar-expand-lg is-fixed">
+                    <div class="main-bar">
+                        <div class="container">
+                            <div class="logo-header">
+                                <div class="logo-header-inner logo-header-one">
+                                    <a href="index.html">
+                                        <img src="https://www.apsarabeautycare.com/images/home/main logo_page-0001.jpg"
+                                            alt="Apsara Beauty Care Logo">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Mobile Menu Trigger -->
+                            <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse"
+                                type="button" class="navbar-toggler collapsed">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar icon-bar-first"></span>
+                                <span class="icon-bar icon-bar-two"></span>
+                                <span class="icon-bar icon-bar-three"></span>
+                            </button>
+
+                            <!-- Phone Call Link -->
+                            <div class="extra-nav header-nav">
+                                <div class="extra-cell">
+                                    <a href="tel:+917026911133" class="text-gold px-2"
+                                        style="font-size: 18px; font-weight: bold; color: #c5a880 !important; text-decoration: none;">
+                                        <i class="fa fa-phone" style="margin-right: 5px;"></i>(+91) 70269 11133
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Navigation Menu -->
+                            <div
+                                class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="about-1.html">About us</a></li>
+                                    <li class="has-child">
+                                        <a href="javascript:void(0);">Our Services</a>
+                                        <div class="fa fa-angle-right submenu-toogle"></div>
+                                        <ul class="sub-menu">
+                                            <li><a href="hairstyling.html">Hair Services</a></li>
+                                            <li><a href="nailservice.html">Nail Service</a></li>
+                                            <li><a href="waxingservice.html">Waxing Service</a></li>
+                                            <li><a href="threading.html">Threading Service</a></li>
+                                            <li><a href="facial.html">Facial Service</a></li>
+                                            <li><a href="massage&wellness.html">Massage &amp; Wellness Service</a></li>
+                                            <li><a href="bridal.html">Bridal &amp; groom Service</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="menu.html">Menu</a></li>
+                                    <li><a href="contact-1.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- CONTENT WRAPPER -->
+        <div class="page-content">
+
+            <!-- INNER PAGE BANNER -->
+            <div class="wt-bnr-inr overlay-wraper bg-center" style="background-image:url(images/colarge/aboutus.jpg);">
+                <div class="overlay-main site-bg-secondry opacity-07"></div>
+                <div class="container">
+                    <div class="wt-bnr-inr-entry">
+                        <div class="banner-title-outer">
+                            <div class="banner-title-name">
+                                <h2 class="site-text-primary"
+                                    style="font-family: 'Yeseva One', serif; color: #c5a880 !important; font-size: 48px;">
+                                    About Us</h2>
+                            </div>
+                        </div>
+                        <!-- BREADCRUMB ROW -->
+                        <div>
+                            <ul class="wt-breadcrumb breadcrumb-style-2"
+                                style="list-style: none; display: flex; padding-left: 0;">
+                                <li><a href="index.html" style="color: #bbb; text-decoration: none;">Home</a></li>
+                                <li style="color: #c5a880; margin-left: 10px;">/ About Us</li>
+                            </ul>
+                        </div>
+                        <!-- BREADCRUMB ROW END -->
+                    </div>
+                </div>
+            </div>
+            <!-- INNER PAGE BANNER END -->
+
+            <!-- ABOUT DETAILS -->
+            <section class="about-wrapper" id="about">
+                <div class="container">
+                    <!-- ABOUT US -->
+                    <div class="about-container">
+                        <div class="about-image">
+                            <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&amp;w=1200&amp;auto=format&amp;fit=crop"
+                                alt="APSARA Beauty &amp; Wellness Studio">
+                        </div>
+
+                        <div class="about-content">
+                            <h2>About APSARA Beauty</h2>
+                            <p>
+                                <strong>APSARA Beauty &amp; Wellness Studio</strong> is your trusted destination for
+                                premium beauty, hair, and wellness services in Rajajinagar, Bangalore. We combine expert
+                                professionals, high-quality products, and a soothing environment to deliver a
+                                rejuvenating experience for every client.
+                            </p>
+                            <p>
+                                From expert skincare and advanced hair styling to professional bridal makeup and
+                                therapeutic spa therapies, every service is crafted to enhance your natural beauty while
+                                ensuring absolute relaxation and comfort. At APSARA, we believe beauty begins with
+                                dedicated self-care.
+                            </p>
+
+                            <ul class="about-highlights">
+                                <li>Skilled &amp; Certified Professionals</li>
+                                <li>Premium Products &amp; Hygienic Practices</li>
+                                <li>Personalized Beauty Consultation</li>
+                                <li>Relaxing &amp; Comfortable Environment</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- MISSION & VISION -->
+                    <div class="mv-container">
+                        <div class="mv-box">
+                            <h3>Our Mission</h3>
+                            <p>
+                                To provide exceptional beauty and wellness services through expert care, advanced
+                                techniques, and a relaxing environment that inspires confidence and well-being in every
+                                single guest we serve.
+                            </p>
+                        </div>
+
+                        <div class="mv-box">
+                            <h3>Our Vision</h3>
+                            <p>
+                                To be the most trusted beauty &amp; wellness studio in the region—highly celebrated for
+                                excellence, cutting-edge beauty innovation, and unmatched customer satisfaction.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- WHY CHOOSE US -->
+                    <div class="why-container">
+                        <h2 class="why-title">Why Choose Us</h2>
+
+                        <div class="why-grid">
+                            <div class="why-item">
+                                <h4>Skilled &amp; Certified Team</h4>
+                                <p>Professionals trained in the latest global beauty, styling, and bridal makeup
+                                    techniques.</p>
+                            </div>
+
+                            <div class="why-item">
+                                <h4>Premium Quality Products</h4>
+                                <p>We use high-end, safe, and skin-friendly brands approved by dermatologists.</p>
+                            </div>
+
+                            <div class="why-item">
+                                <h4>Hygiene &amp; Safety</h4>
+                                <p>Strict sanitization protocols, fresh single-use disposables, and a spotless
+                                    environment.</p>
+                            </div>
+
+                            <div class="why-item">
+                                <h4>Personalized Care</h4>
+                                <p>Every skin facial, hair service, and beauty therapy is tailored specifically to your
+                                    needs.</p>
+                            </div>
+
+                            <div class="why-item">
+                                <h4>Calm &amp; Relaxing Atmosphere</h4>
+                                <p>A peaceful setting decorated elegantly, designed for total stress relief and complete
+                                    pampering.</p>
+                            </div>
+
+                            <div class="why-item">
+                                <h4>Wide Range of Services</h4>
+                                <p>Skincare, haircutting, coloring, makeovers, waxing, massage &amp; more all under one
+                                    roof.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WELCOME BACKING COLLAGE (FROM LIVE SITE) -->
+            <div class="section-full welcome-section-outer" style="background-color: #faf5ee; padding: 80px 0;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-12">
+                            <div class="welcom-to-section">
+                                <div class="left wt-small-separator-outer">
+                                    <div class="wt-small-separator">
+                                        <div class="sep-leaf-left"><img src="images/sep-leaf-left.png" alt=""></div>
+                                        <div
+                                            style="color: #c5a880; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">
+                                            Welcome to Apsara</div>
+                                        <div class="sep-leaf-right"><img src="images/sep-leaf-right.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <h2
+                                    style="font-family: 'Yeseva One', serif; font-size: 38px; color: #1a1e1f; margin-top: 15px;">
+                                    Our Salon is Most Popular, Clean and Recommended Hair Salon</h2>
+                                <p style="font-size: 15px; color: #555; line-height: 26px;">
+                                    We have a passion for promoting healthy, balanced, and beautiful living. Offering
+                                    massage wellness, premium haircuts, skincare, bridal packages, and more, we
+                                    emphasize preventive care, stress management, and personal glow. While you may find
+                                    a visit with us to be a spa-like, relaxing and pampering experience, our team
+                                    focuses on long-lasting aesthetic and health benefits.
+                                </p>
+                                <div class="welcom-to-section-bottom m-t20">
+                                    <a href="contact-1.html" class="site-button site-btn-effect"
+                                        style="background-color: #c5a880; color: #fff; padding: 12px 30px; border-radius: 30px; font-weight: bold; text-decoration: none; display: inline-block;">Book
+                                        Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12 m-t30">
+                            <div class="img-colarge" style="position: relative; height: 380px; width: 100%;">
+                                <div class="colarge-1"
+                                    style="position: absolute; width: 60%; top: 0; left: 0; z-index: 3; box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 10px; overflow: hidden; border: 5px solid #fff;">
+                                    <img src="images/colarge/haircut.jpg" alt="Haircut Styling"
+                                        style="width: 100%; display: block;">
+                                </div>
+                                <div class="colarge-2"
+                                    style="position: absolute; width: 55%; bottom: 0; right: 0; z-index: 2; box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 10px; overflow: hidden; border: 5px solid #fff;">
+                                    <img src="images/banner/groom.jpg" alt="Grooming Care"
+                                        style="width: 100%; display: block;">
+                                </div>
+                                <div class="colarge-3 slide-right"
+                                    style="position: absolute; width: 45%; top: 20%; right: 10%; z-index: 1; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden; border: 5px solid #fff;">
+                                    <img src="images/banner/click1.jpg" alt="Nail Services"
+                                        style="width: 100%; display: block;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="site-footer footer-large text-white"
+            style="background-color: #1A1E1F; border-top: 2px solid #c5a880;">
+            <div class="footer-top p-t80 p-b40">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Col 1: About & Newsletter -->
+                        <div class="col-lg-6 col-md-12 col-sm-12 m-b30">
+                            <div class="widget widget_about">
+                                <div class="logo-footer clearfix p-b20">
+                                    <a href="index.html">
+                                        <img src="https://www.apsarabeautycare.com/images/home/main logo_page-0001.jpg"
+                                            alt="Apsara Beauty Care Logo" style="width: 120px; border-radius: 5px;">
+                                    </a>
+                                </div>
+                                <p style="color: #bbb; line-height: 26px; margin-bottom: 25px;">
+                                    Apsara Beauty Care aims to enhance every client's natural beauty by delivering
+                                    premium beauty, grooming, and wellness services with exceptional care, hygiene, and
+                                    elite professionalism.
+                                </p>
+                                <div class="newsletter-input" style="max-width: 400px;">
+                                    <div class="input-group">
+                                        <input id="email-subscribe" type="text" class="form-control"
+                                            placeholder="Enter your email"
+                                            style="border-radius: 30px 0 0 30px; border: 1px solid #c5a880; background: #222; color: #fff;">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn"
+                                                style="background-color: #c5a880; color: #000; font-weight: bold; border-radius: 0 30px 30px 0; padding: 10px 25px; transition: 0.3s;">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Footer Col 2: Useful Links -->
+                        <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
+                            <div class="widget widget_services">
+                                <h4 class="widget-title"
+                                    style="font-family: 'Yeseva One', serif; font-size: 20px; color: #c5a880; margin-bottom: 25px; text-transform: uppercase;">
+                                    Useful Links</h4>
+                                <ul style="list-style: none; padding-left: 0; line-height: 36px;">
+                                    <li><a href="about-1.html"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">About Us</a>
+                                    </li>
+                                    <li><a href="contact-1.html"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">Contact Us</a>
+                                    </li>
+                                    <li><a href="services-1.html"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">Our
+                                            Services</a></li>
+                                    <li><a href="menu.html"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">Salon Menu</a>
+                                    </li>
+                                    <li><a href="javascript:void(0);"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">FAQ</a></li>
+                                </ul>
+                                <ul style="list-style: none; padding-left: 0; display: flex; margin-top: 20px;">
+                                    <li style="margin-right: 15px;"><a
+                                            href="https://www.facebook.com/share/p/1Bg66G38jL/" target="_blank"
+                                            style="color: #c5a880; font-size: 22px;"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li style="margin-right: 15px;"><a
+                                            href="https://www.instagram.com/salon_rajajinagar?igsh=dTg0MzBpd2xlc2pu"
+                                            target="_blank" style="color: #c5a880; font-size: 22px;"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                    <li><a href="javascript:void(0);" style="color: #c5a880; font-size: 22px;"><i
+                                                class="fa fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Footer Col 3: Contact Info -->
+                        <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
+                            <div class="widget recent-posts-entry">
+                                <h4 class="widget-title"
+                                    style="font-family: 'Yeseva One', serif; font-size: 20px; color: #c5a880; margin-bottom: 25px; text-transform: uppercase;">
+                                    Contact Us</h4>
+                                <ul class="widget_address"
+                                    style="list-style: none; padding-left: 0; line-height: 28px; color: #bbb;">
+                                    <li style="margin-bottom: 15px;"><i class="fa fa-map-marker"
+                                            style="color: #c5a880; margin-right: 10px; font-size: 16px;"></i>Opp Amar
+                                        Jyoti Complex, Ganpathi Nagar, Godhani Road, Zingabai Takali, Nagpur-440030,
+                                        Maharashtra</li>
+                                    <li style="margin-bottom: 15px;"><i class="fa fa-envelope"
+                                            style="color: #c5a880; margin-right: 10px; font-size: 14px;"></i>
+                                        apsaraunisexsalon2025@gmail.com</li>
+                                    <li><i class="fa fa-phone"
+                                            style="color: #c5a880; margin-right: 10px; font-size: 16px;"></i>(+91)
+                                        7026911133</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer Bar -->
+            <div class="footer-bottom"
+                style="background-color: #151819; padding: 20px 0; border-top: 1px solid rgba(255,255,255,0.05);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-left">
+                            <span class="copyrights-text" style="color: #777; font-size: 14px;">Copyright © 2026 Apsara
+                                Beauty &amp; Wellness Rajajinagar. All Rights Reserved.</span>
+                        </div>
+                        <div class="col-md-6 text-center text-md-right mt-2 mt-md-0">
+                            <ul class="copyrights-nav"
+                                style="list-style: none; padding-left: 0; display: inline-flex; margin-bottom: 0;">
+                                <li style="margin-left: 20px;"><a href="javascript:void(0);"
+                                        style="color: #777; font-size: 14px; text-decoration: none;">Terms &amp;
+                                        Condition</a></li>
+                                <li style="margin-left: 20px;"><a href="javascript:void(0);"
+                                        style="color: #777; font-size: 14px; text-decoration: none;">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button -->
+        <button class="scroltop"
+            style="background-color: #c5a880; border: none; border-radius: 5px; color: #fff; width: 40px; height: 40px; position: fixed; bottom: 40px; left: 40px; display: none; z-index: 999; cursor: pointer; justify-content: center; align-items: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"><span
+                class="fa fa-angle-up relative" id="btn-vibrate" style="font-size: 20px;"></span></button>
+    </div>
+
+    <!-- WhatsApp Floating Widget -->
+    <a href="https://wa.me/+917026911133" target="_blank" class="wa-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.149-.67.149-.198.297-.768.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.207-.242-.579-.487-.501-.67-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.077 4.487.71.306 1.263.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.718 2.007-1.413.248-.695.248-1.29.173-1.413-.074-.124-.272-.198-.57-.347z"
+                fill="white"></path>
+            <path
+                d="M20.52 3.48A11.94 11.94 0 0 0 12 0C5.373 0 .12 5.253.12 11.88c0 2.118.558 4.178 1.611 6.018L0 24l6.305-1.654a11.86 11.86 0 0 0 5.667 1.46h.028c6.627 0 11.88-5.253 11.88-11.88 0-3.18-1.243-6.166-3.96-8.345z"
+                fill="white" opacity="0.2"></path>
+        </svg>
+    </a>
+
+    <!-- Core Scripts (Linked to original files - will be downloaded and localized) -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/waypoints-sticky.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/stellar.min.js"></script>
+    <script src="js/theia-sticky-sidebar.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- UI Helper scripts -->
+    <script>
+        // Scroll to top button visibility toggle
+        window.addEventListener('scroll', () => {
+            const scrollBtn = document.querySelector('.scroltop');
+            if (window.scrollY > 300) {
+                scrollBtn.style.display = 'flex';
+            } else {
+                scrollBtn.style.display = 'none';
+            }
+        });
+
+        // Smooth scroll to top
+        document.querySelector('.scroltop').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</html>

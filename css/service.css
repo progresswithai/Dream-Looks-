@@ -1,0 +1,981 @@
+
+.services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #6d4c1e;
+    font-weight: 600;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.service-card {
+    background: #fafafa;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.service-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #6d4c1e;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.service-btn:hover {
+    background: #543915;
+}
+
+
+
+
+/* ABOUT – MISSION – VISION – WHY CHOOSE US */
+.about-wrapper {
+  padding: 60px 20px;
+  background: #f9f7f5;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* About Section */
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.about-content h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #1f2933;
+  font-family: "Playfair Display", serif;
+}
+
+.about-content p {
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.about-highlights {
+  margin-top: 15px;
+  padding-left: 18px;
+  color: #444;
+  font-weight: 600;
+}
+
+.about-highlights li {
+  margin-bottom: 8px;
+}
+
+/* Mission & Vision */
+.mv-container {
+  max-width: 1100px;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.mv-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  border-left: 4px solid #c19a6b;
+}
+
+.mv-box h3 {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f2933;
+  font-family: "Playfair Display", serif;
+}
+
+.mv-box p {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Why Choose Us */
+.why-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.why-title {
+  font-size: 34px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+  color: #1f2933;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.why-item {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  text-align: left;
+  border-left: 4px solid #c19a6b;
+}
+
+.why-item h4 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.why-item p {
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-container,
+  .mv-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-content ul {
+    text-align: left;
+    display: inline-block;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-image img {
+    height: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image img {
+    height: 260px;
+  }
+}
+
+/* APSARA SIGNATURE NAIL SERVICES */
+.apsara-signature-nails {
+    padding: 80px 20px;
+    background: #faf7f3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* TITLE */
+.apsara-title {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 50px;
+    animation: fadeUp 1s ease forwards;
+}
+.apsara-title span {
+    background: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid rgba(193,154,107,0.6);
+    font-size: 14px;
+    color: #c19a6b;
+    font-weight: 600;
+}
+.apsara-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin: 15px 0;
+    color: #1f2933;
+}
+.apsara-title p {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+/* GRID */
+.apsara-nail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 25px;
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* CARD */
+.nail-card {
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid rgba(193,154,107,0.45);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    transition: 0.35s ease;
+    animation: fadeUp 1s ease forwards;
+}
+.nail-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.14);
+}
+
+/* IMAGE */
+.nail-img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.nail-img img:hover {
+    transform: scale(1.04);
+}
+
+/* CONTENT */
+.nail-content {
+    padding: 20px;
+}
+.nail-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #1f2933;
+}
+.nail-content p {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+/* ANIMATION */
+@keyframes fadeUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@media(max-width: 600px) {
+    .apsara-title h2 {
+        font-size: 30px;
+    }
+}
+
+/* HAIR STYLING SERVICES */
+.hair-styling-services {
+    padding: 80px 20px;
+    background: #faf7f3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* TITLE */
+.hair-title {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 50px;
+    animation: fadeUp 1s ease forwards;
+}
+.hair-title span {
+    background: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid rgba(193,154,107,0.6);
+    font-size: 14px;
+    color: #c19a6b;
+    font-weight: 600;
+}
+.hair-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin: 15px 0;
+    color: #1f2933;
+}
+.hair-title p {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+/* GRID */
+.hair-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 25px;
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* CARD */
+.hair-card {
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid rgba(193,154,107,0.45);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    transition: 0.35s ease;
+    animation: fadeUp 1s ease forwards;
+}
+.hair-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.14);
+}
+
+/* IMAGE */
+.hair-img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.hair-img img:hover {
+    transform: scale(1.04);
+}
+
+/* CONTENT */
+.hair-content {
+    padding: 20px;
+}
+.hair-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #1f2933;
+}
+.hair-content p {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+/* ANIMATION */
+@keyframes fadeUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@media(max-width: 600px) {
+    .hair-title h2 {
+        font-size: 30px;
+    }
+}
+
+
+.section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    transition: 0.4s ease;
+}
+
+.section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+.section p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #555;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex.reverse {
+    flex-direction: row-reverse;
+}
+
+.section img {
+    width: 45%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    transition: 0.4s ease;
+}
+
+.section img:hover {
+    transform: scale(1.03);
+}
+
+.text {
+    width: 55%;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .flex, .flex.reverse {
+        flex-direction: column;
+    }
+
+    .section img {
+        width: 100%;
+    }
+
+    .text, p {
+        width: 100%;
+    }
+
+    .section {
+        padding: 25px;
+    }
+}
+
+
+/* Container */
+.apsara-waxing {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+/* Title Section */
+.wax-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wax-title span {
+    font-size: 18px;
+    color: #ff7690;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.wax-title h2 {
+    font-size: 42px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.wax-title p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Grid Layout */
+.wax-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* Wax Cards */
+.wax-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.09);
+    transition: 0.4s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s forwards;
+}
+
+/* Animation Delay */
+.wax-card:nth-child(n) {
+    animation-delay: calc(0.1s * var(--i));
+}
+
+/* Keyframes */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover */
+.wax-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Images */
+.wax-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Text */
+.wax-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px 0 20px;
+}
+
+.wax-card p {
+    padding: 10px 20px 20px 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .wax-title h2 {
+        font-size: 28px;
+    }
+    .wax-card img {
+        height: 160px;
+    }
+}
+
+
+/* Section Base */
+.apsara-threading {
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.threading-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.threading-title span {
+  font-size: 16px;
+  color: #d19b6f;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.threading-title h2 {
+  font-size: 32px;
+  margin: 10px 0;
+  color: #222;
+}
+
+.threading-title p {
+  width: 70%;
+  margin: auto;
+  font-size: 15px;
+  color: #555;
+}
+
+/* Grid */
+.threading-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* Cards */
+.thread-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.thread-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+.thread-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #eee;
+}
+
+.thread-content {
+  padding: 15px 18px;
+}
+
+.thread-content h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.thread-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
+
+
+/* -------- FACIAL SECTION -------- */
+/* -------- FACIAL CARD GRID -------- */
+.apsara-facials {
+  padding: 50px 6%;
+  background: #f8f5f2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
+}
+
+/* -------- CARD -------- */
+.facial-card {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.facial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+/* -------- IMAGE -------- */
+.facial-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* -------- TEXT -------- */
+.facial-body {
+  padding: 18px 22px;
+}
+
+.facial-body h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #222;
+}
+
+.facial-body h5 {
+  margin-top: 14px;
+  margin-bottom: 4px;
+  color: #222;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.facial-body p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* -------- MOBILE -------- */
+@media (max-width: 600px) {
+  .apsara-facials {
+    padding: 35px 4%;
+    gap: 20px;
+  }
+
+  .facial-card img {
+    height: 180px;
+  }
+}
+
+
+
+/* SECTION HEADER */
+.apsara-massage {
+  width: 90%;
+  margin: 60px auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.apsara-massage-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.apsara-massage-header .tag {
+  color: #d4a574;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.apsara-massage-header h2 {
+  font-size: 34px;
+  color: #222;
+  margin: 10px 0;
+}
+
+.apsara-massage-header p {
+  width: 70%;
+  margin: auto;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ROW WRAPPER */
+.apsara-row {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 60px;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.apsara-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* IMAGE BLOCK */
+.apsara-row-media {
+  flex: 1;
+}
+
+.apsara-row-media img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* CONTENT AREA */
+.apsara-row-content {
+  flex: 1;
+}
+
+.apsara-row-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.apsara-row-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.service-list li {
+  margin-left: 20px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #d4a574;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #b88752;
+}
+
+/* ANIMATION */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 850px) {
+  .apsara-row,
+  .apsara-row.reverse {
+    flex-direction: column;
+  }
+
+  .apsara-massage-header p {
+    width: 95%;
+  }
+
+  .apsara-row-media img {
+    height: 250px;
+  }
+}
+
+/* BASIC SECTION SETUP */
+.apsara-bridal {
+  padding: 0px 5%;
+  background: #fff9f6;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+.apsara-bridal-header {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 60px;
+  /* color: black; */
+}
+
+.apsara-bridal-header .tag {
+  color: #c1985b;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.apsara-bridal-header h2 {
+  font-size: 42px;
+  margin: 10px 0;
+  font-weight: 700;
+  color: #2b2b2b;
+}
+
+.apsara-bridal-header p {
+  font-size: 17px;
+  color: #555;
+}
+
+/* ROW DESIGN */
+.apsara-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.apsara-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.apsara-row-media {
+  flex: 1;
+}
+
+.apsara-row-media img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  object-fit: cover;
+}
+
+/* CONTENT BOX */
+.apsara-row-content {
+  flex: 1;
+}
+
+.apsara-row-content h3 {
+  font-size: 28px;
+  color: #3a2e2c;
+  font-weight: 600;
+}
+
+.apsara-row-content p {
+  margin: 10px 0 15px;
+  color: #5c5c5c;
+  line-height: 1.7;
+}
+
+.service-list li {
+  margin: 8px 0;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  background: #c1985b;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #a87d43;
+}
+
+.btn.ghost {
+  background: transparent;
+  border: 2px solid #c1985b;
+  color: #c1985b;
+}
+
+.btn.ghost:hover {
+  background: #c1985b;
+  color: #fff;
+}
+
+/* ANIMATIONS */
+[data-anim] {
+  /* opacity: 0; */
+  transform: translateY(40px);
+  transition: 0.9s ease;
+}
+
+[data-anim].show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-anim="fade-right"] { transform: translateX(-60px); }
+[data-anim="fade-left"]  { transform: translateX(60px); }
+[data-anim="zoom-in"]    { transform: scale(0.8); }
+[data-anim="slide-up"]   { transform: translateY(80px); }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .apsara-row,
+  .apsara-row.reverse {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,602 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords"
+        content="Apsara Beauty Care Rajajinagar, beauty care Rajajinagar, beauty salon Rajajinagar Bangalore, spa in Rajajinagar, skincare clinic Rajajinagar, beauty parlour Rajajinagar, best beauty salon Rajajinagar, facial treatment Rajajinagar, bridal makeup Rajajinagar, professional spa services Bangalore, organic skincare, beauty treatments West Bangalore">
+    <meta name="author" content="Apsara Beauty Care">
+    <meta name="robots" content="index, follow">
+    <meta name="description"
+        content="Explore our premium beauty, grooming, and wellness services at APSARA Beauty & Wellness Studio in Rajajinagar, Bangalore. Hair, nail, facials, waxing, threading, and bridal packages.">
+
+    <link rel="icon" href="https://www.apsarabeautycare.com/images/home/main logo_page-0001.jpg" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.apsarabeautycare.com/images/favicon.png">
+
+    <title>Our Services | Apsara Beauty Care – Salon in Rajajinagar Bangalore</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Stylesheets (Absolute paths for remote loading - will be localized) -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.apsarabeautycare.com/plugins/revolution/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://www.apsarabeautycare.com/plugins/revolution/revolution/css/navigation.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:400,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/service.css">
+
+    <style>
+        /* Modernized Service Grid Styles */
+        .services {
+            padding: 80px 0;
+            background: #fff;
+        }
+
+        .services h2 {
+            font-family: 'Yeseva One', serif;
+            font-size: 36px;
+            color: #1A1E1F;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .service-card {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            height: 350px;
+        }
+
+        .service-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .service-card:hover img {
+            transform: scale(1.08);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(197, 168, 128, 0.2);
+        }
+
+        .service-btn {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #c5a880;
+            color: #fff !important;
+            padding: 10px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            text-decoration: none !important;
+            display: inline-block;
+            transition: 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+        }
+
+        .service-btn:hover {
+            background-color: #1A1E1F;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Questions / Inquiry Section styling */
+        .home-contact-section {
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+            border: 1px solid #f2e7d5;
+        }
+
+        .home-contact-section h2 {
+            font-family: 'Yeseva One', serif;
+            font-size: 28px;
+            color: #1A1E1F;
+            margin-bottom: 20px;
+            margin-top: 15px;
+        }
+
+        .home-contact-section .form-control {
+            border-radius: 10px;
+            padding: 14px 16px;
+            height: auto;
+            border: 1px solid #ddd;
+            font-size: 15px;
+            background: #fdfaf6;
+        }
+
+        .home-contact-section .form-control:focus {
+            border-color: #c5a880;
+            box-shadow: 0 0 8px rgba(197, 168, 128, 0.25);
+            background: #fff;
+        }
+
+        .home-contact-section button {
+            background-color: #c5a880;
+            color: #fff;
+            border: none;
+            padding: 12px 35px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .home-contact-section button:hover {
+            background-color: #1a1e1f;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .contact-right-section .wt-media {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+            border: 5px solid #fff;
+            outline: 1px solid #f2e7d5;
+        }
+
+        .contact-right-section img {
+            width: 100%;
+            display: block;
+            height: 420px;
+            object-fit: cover;
+        }
+
+        @media (max-width: 991px) {
+            .service-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .contact-right-section {
+                margin-top: 30px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .service-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body id="bg">
+    <div class="page-wraper">
+
+        <!-- HEADER -->
+        <header class="site-header header-style-1 mobile-sider-drawer-menu" style="background-color: #1A1E1F">
+            <div class="sticky-wrapper" style="height: 100px;">
+                <div class="sticky-header main-bar-wraper navbar-expand-lg is-fixed">
+                    <div class="main-bar">
+                        <div class="container">
+                            <div class="logo-header">
+                                <div class="logo-header-inner logo-header-one">
+                                    <a href="index.html">
+                                        <img src="https://www.apsarabeautycare.com/images/home/main logo_page-0001.jpg"
+                                            alt="Apsara Beauty Care Logo">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Mobile Menu Trigger -->
+                            <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse"
+                                type="button" class="navbar-toggler collapsed">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar icon-bar-first"></span>
+                                <span class="icon-bar icon-bar-two"></span>
+                                <span class="icon-bar icon-bar-three"></span>
+                            </button>
+
+                            <!-- Phone Call Link -->
+                            <div class="extra-nav header-nav">
+                                <div class="extra-cell">
+                                    <a href="tel:+917026911133" class="text-gold px-2"
+                                        style="font-size: 18px; font-weight: bold; color: #c5a880 !important; text-decoration: none;">
+                                        <i class="fa fa-phone" style="margin-right: 5px;"></i>(+91) 70269 11133
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Navigation Menu -->
+                            <div
+                                class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-1.html">About us</a></li>
+                                    <li class="has-child active">
+                                        <a href="javascript:void(0);">Our Services</a>
+                                        <div class="fa fa-angle-right submenu-toogle"></div>
+                                        <ul class="sub-menu">
+                                            <li><a href="hairstyling.html">Hair Services</a></li>
+                                            <li><a href="nailservice.html">Nail Service</a></li>
+                                            <li><a href="waxingservice.html">Waxing Service</a></li>
+                                            <li><a href="threading.html">Threading Service</a></li>
+                                            <li><a href="facial.html">Facial Service</a></li>
+                                            <li><a href="massage&wellness.html">Massage &amp; Wellness Service</a></li>
+                                            <li><a href="bridal.html">Bridal &amp; groom Service</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="menu.html">Menu</a></li>
+                                    <li><a href="contact-1.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- CONTENT WRAPPER -->
+        <div class="page-content">
+
+            <!-- INNER PAGE BANNER -->
+            <div class="wt-bnr-inr overlay-wraper bg-center"
+                style="background-image:url(https://www.apsarabeautycare.com/images/banner/serbanner.jpg);">
+                <div class="overlay-main site-bg-secondry opacity-07"></div>
+                <div class="container">
+                    <div class="wt-bnr-inr-entry">
+                        <div class="banner-title-outer">
+                            <div class="banner-title-name">
+                                <h2 class="site-text-primary"
+                                    style="font-family: 'Yeseva One', serif; color: #c5a880 !important; font-size: 48px;">
+                                    Services</h2>
+                            </div>
+                        </div>
+                        <!-- BREADCRUMB ROW -->
+                        <div>
+                            <ul class="wt-breadcrumb breadcrumb-style-2"
+                                style="list-style: none; display: flex; padding-left: 0;">
+                                <li><a href="index.html" style="color: #bbb; text-decoration: none;">Home</a></li>
+                                <li style="color: #c5a880; margin-left: 10px;">/ Services</li>
+                            </ul>
+                        </div>
+                        <!-- BREADCRUMB ROW END -->
+                    </div>
+                </div>
+            </div>
+            <!-- INNER PAGE BANNER END -->
+
+            <!-- OUR SERVICES DIRECTORY GRID -->
+            <section class="services">
+                <div class="container">
+                    <h2>Our Premium Services</h2>
+
+                    <div class="service-container">
+                        <!-- Hair -->
+                        <div class="service-card">
+                            <img src="images/banner/click.jpg" alt="Hair Styling Service">
+                            <a href="hairstyling.html" class="service-btn">Hair Styling</a>
+                        </div>
+
+                        <!-- Nail -->
+                        <div class="service-card">
+                            <img src="images/colarge/nail.jpg" alt="Nail Service">
+                            <a href="nailservice.html" class="service-btn">Nail Care</a>
+                        </div>
+
+                        <!-- Waxing -->
+                        <div class="service-card">
+                            <img src="images/colarge/facewax.jpg" alt="Waxing Service">
+                            <a href="waxingservice.html" class="service-btn">Waxing</a>
+                        </div>
+
+                        <!-- Threading -->
+                        <div class="service-card">
+                            <img src="images/colarge/eyebrow.jpg" alt="Threading Service">
+                            <a href="threading.html" class="service-btn">Threading</a>
+                        </div>
+
+                        <!-- Bridal & Groom -->
+                        <div class="service-card">
+                            <img src="images/colarge/bridal.jpg" alt="Bridal & Groom Service">
+                            <a href="bridal.html" class="service-btn">Bridal &amp; Groom</a>
+                        </div>
+
+                        <!-- Facial -->
+                        <div class="service-card">
+                            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&amp;w=800"
+                                alt="Facial Therapy">
+                            <a href="facial.html" class="service-btn">Facial Therapy</a>
+                        </div>
+
+                        <!-- Massage & Wellness -->
+                        <div class="service-card">
+                            <img src="images/colarge/massage.jpg" alt="Massage & Wellness">
+                            <a href="massage&wellness.html" class="service-btn">Spa &amp; Wellness</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT / INQUIRY FORM START -->
+            <div class="section-full p-t80 p-b80 bg-orange-light" style="background-color: #faf5ee;">
+                <div class="container">
+                    <div class="section-content">
+                        <div class="row align-items-center">
+                            <!-- Left: Contact Inquiry Form -->
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="home-contact-section">
+                                    <form class="cons-contact-form" method="post" action="send.php">
+                                        <!-- Subtitle -->
+                                        <div class="left wt-small-separator-outer">
+                                            <div class="wt-small-separator">
+                                                <div class="sep-leaf-left"><img src="images/sep-leaf-left.png" alt="">
+                                                </div>
+                                                <div
+                                                    style="color: #c5a880; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">
+                                                    Have Questions?</div>
+                                                <div class="sep-leaf-right"><img src="images/sep-leaf-right.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2>Feel free to get in touch! Contact now</h2>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 m-b20">
+                                                <div class="form-group">
+                                                    <input name="username" type="text" required class="form-control"
+                                                        placeholder="Name">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-sm-6 m-b20">
+                                                <div class="form-group">
+                                                    <input name="email" type="email" class="form-control" required
+                                                        placeholder="Email">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-sm-6 m-b20">
+                                                <div class="form-group">
+                                                    <input name="phone" type="tel" class="form-control" required
+                                                        placeholder="Phone">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 col-sm-6 m-b20">
+                                                <div class="form-group">
+                                                    <input name="subject" type="text" class="form-control" required
+                                                        placeholder="Subject">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12 m-b25">
+                                                <div class="form-group">
+                                                    <textarea name="message" class="form-control" rows="4"
+                                                        placeholder="Your Message..." required></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <button type="submit" class="site-button site-btn-effect">Send us a
+                                                    message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <!-- Right: Service Graphic -->
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="contact-right-section">
+                                    <div class="wt-media">
+                                        <img src="https://www.apsarabeautycare.com/images/contact-img.jpg"
+                                            alt="Apsara Beauty Consultation">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CONTACT US SECTION END -->
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="site-footer footer-large text-white"
+            style="background-color: #1A1E1F; border-top: 2px solid #c5a880;">
+            <div class="footer-top p-t80 p-b40">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Col 1: About & Newsletter -->
+                        <div class="col-lg-6 col-md-12 col-sm-12 m-b30">
+                            <div class="widget widget_about">
+                                <div class="logo-footer clearfix p-b20">
+                                    <a href="index.html">
+                                        <img src="https://www.apsarabeautycare.com/images/home/main logo_page-0001.jpg"
+                                            alt="Apsara Beauty Care Logo" style="width: 120px; border-radius: 5px;">
+                                    </a>
+                                </div>
+                                <p style="color: #bbb; line-height: 26px; margin-bottom: 25px;">
+                                    Apsara Beauty Care aims to enhance every client's natural beauty by delivering
+                                    premium beauty, grooming, and wellness services with exceptional care, hygiene, and
+                                    elite professionalism.
+                                </p>
+                                <div class="newsletter-input" style="max-width: 400px;">
+                                    <div class="input-group">
+                                        <input id="email-subscribe" type="text" class="form-control"
+                                            placeholder="Enter your email"
+                                            style="border-radius: 30px 0 0 30px; border: 1px solid #c5a880; background: #222; color: #fff;">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn"
+                                                style="background-color: #c5a880; color: #000; font-weight: bold; border-radius: 0 30px 30px 0; padding: 10px 25px; transition: 0.3s;">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Footer Col 2: Useful Links -->
+                        <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
+                            <div class="widget widget_services">
+                                <h4 class="widget-title"
+                                    style="font-family: 'Yeseva One', serif; font-size: 20px; color: #c5a880; margin-bottom: 25px; text-transform: uppercase;">
+                                    Useful Links</h4>
+                                <ul style="list-style: none; padding-left: 0; line-height: 36px;">
+                                    <li><a href="about-1.html"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">About Us</a>
+                                    </li>
+                                    <li><a href="contact-1.html"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">Contact Us</a>
+                                    </li>
+                                    <li><a href="services-1.html"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">Our
+                                            Services</a></li>
+                                    <li><a href="menu.html"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">Salon Menu</a>
+                                    </li>
+                                    <li><a href="javascript:void(0);"
+                                            style="color: #bbb; text-decoration: none; transition: 0.3s;">FAQ</a></li>
+                                </ul>
+                                <ul style="list-style: none; padding-left: 0; display: flex; margin-top: 20px;">
+                                    <li style="margin-right: 15px;"><a
+                                            href="https://www.facebook.com/share/p/1Bg66G38jL/" target="_blank"
+                                            style="color: #c5a880; font-size: 22px;"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li style="margin-right: 15px;"><a
+                                            href="https://www.instagram.com/salon_rajajinagar?igsh=dTg0MzBpd2xlc2pu"
+                                            target="_blank" style="color: #c5a880; font-size: 22px;"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                    <li><a href="javascript:void(0);" style="color: #c5a880; font-size: 22px;"><i
+                                                class="fa fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Footer Col 3: Contact Info -->
+                        <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
+                            <div class="widget recent-posts-entry">
+                                <h4 class="widget-title"
+                                    style="font-family: 'Yeseva One', serif; font-size: 20px; color: #c5a880; margin-bottom: 25px; text-transform: uppercase;">
+                                    Contact Us</h4>
+                                <ul class="widget_address"
+                                    style="list-style: none; padding-left: 0; line-height: 28px; color: #bbb;">
+                                    <li style="margin-bottom: 15px;"><i class="fa fa-map-marker"
+                                            style="color: #c5a880; margin-right: 10px; font-size: 16px;"></i>Opp Amar
+                                        Jyoti Complex, Ganpathi Nagar, Godhani Road, Zingabai Takali, Nagpur-440030,
+                                        Maharashtra</li>
+                                    <li style="margin-bottom: 15px;"><i class="fa fa-envelope"
+                                            style="color: #c5a880; margin-right: 10px; font-size: 14px;"></i>
+                                        apsaraunisexsalon2025@gmail.com</li>
+                                    <li><i class="fa fa-phone"
+                                            style="color: #c5a880; margin-right: 10px; font-size: 16px;"></i>(+91)
+                                        7026911133</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer Bar -->
+            <div class="footer-bottom"
+                style="background-color: #151819; padding: 20px 0; border-top: 1px solid rgba(255,255,255,0.05);">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-left">
+                            <span class="copyrights-text" style="color: #777; font-size: 14px;">Copyright © 2026 Apsara
+                                Beauty &amp; Wellness Rajajinagar. All Rights Reserved.</span>
+                        </div>
+                        <div class="col-md-6 text-center text-md-right mt-2 mt-md-0">
+                            <ul class="copyrights-nav"
+                                style="list-style: none; padding-left: 0; display: inline-flex; margin-bottom: 0;">
+                                <li style="margin-left: 20px;"><a href="javascript:void(0);"
+                                        style="color: #777; font-size: 14px; text-decoration: none;">Terms &amp;
+                                        Condition</a></li>
+                                <li style="margin-left: 20px;"><a href="javascript:void(0);"
+                                        style="color: #777; font-size: 14px; text-decoration: none;">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button -->
+        <button class="scroltop"
+            style="background-color: #c5a880; border: none; border-radius: 5px; color: #fff; width: 40px; height: 40px; position: fixed; bottom: 40px; left: 40px; display: none; z-index: 999; cursor: pointer; justify-content: center; align-items: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"><span
+                class="fa fa-angle-up relative" id="btn-vibrate" style="font-size: 20px;"></span></button>
+    </div>
+
+    <!-- WhatsApp Floating Widget -->
+    <a href="https://wa.me/+917026911133" target="_blank" class="wa-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.149-.67.149-.198.297-.768.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.207-.242-.579-.487-.501-.67-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.077 4.487.71.306 1.263.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.718 2.007-1.413.248-.695.248-1.29.173-1.413-.074-.124-.272-.198-.57-.347z"
+                fill="white"></path>
+            <path
+                d="M20.52 3.48A11.94 11.94 0 0 0 12 0C5.373 0 .12 5.253.12 11.88c0 2.118.558 4.178 1.611 6.018L0 24l6.305-1.654a11.86 11.86 0 0 0 5.667 1.46h.028c6.627 0 11.88-5.253 11.88-11.88 0-3.18-1.243-6.166-3.96-8.345z"
+                fill="white" opacity="0.2"></path>
+        </svg>
+    </a>
+
+    <!-- Core Scripts (Linked to original files - will be downloaded and localized) -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/waypoints-sticky.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/stellar.min.js"></script>
+    <script src="js/theia-sticky-sidebar.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- UI Helper scripts -->
+    <script>
+        // Scroll to top button visibility toggle
+        window.addEventListener('scroll', () => {
+            const scrollBtn = document.querySelector('.scroltop');
+            if (window.scrollY > 300) {
+                scrollBtn.style.display = 'flex';
+            } else {
+                scrollBtn.style.display = 'none';
+            }
+        });
+
+        // Smooth scroll to top
+        document.querySelector('.scroltop').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</html>
